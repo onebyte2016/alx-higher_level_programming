@@ -27,10 +27,12 @@ void print_python_list(PyObject *p)
 			print_python_bytes(list->ob_item[i]);
 	}
 }
+
 /**
  * print_python_bytes - Prints basic info about python byte objects
  * @p: A PyObject byte object
  */
+
 void print_python_bytes(PyObject *p)
 {
 	unsigned char i, size;
