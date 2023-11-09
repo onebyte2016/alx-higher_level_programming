@@ -1,6 +1,8 @@
 #include <Python.h>
+
 void print_python_list(PyObject *p);
 void print_python_bytes(PyObject *p);
+
 /**
  * print_python_list - Prints basic info about python lists.
  * @p: A PyObject list object.
@@ -44,6 +46,7 @@ void print_python_bytes(PyObject *p)
 		printf("  [ERROR] Invalid Bytes object\n");
 		return;
 	}
+
 	printf("  size: %ld\n", ((PyVarObject *)p)->ob_size);
 	printf("  trying string: %s\n", bytes->ob_sval);
 
