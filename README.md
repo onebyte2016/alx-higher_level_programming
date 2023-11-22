@@ -1,1 +1,1 @@
-readme for python import and modul
+readme for python class

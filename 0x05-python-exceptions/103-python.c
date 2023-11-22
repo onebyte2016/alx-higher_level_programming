@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <Python.h>
+#include <python.h>
 #include <floatobject.h>
 /**
  * print_python_float - prints into about python float
