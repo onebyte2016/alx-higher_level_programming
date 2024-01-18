@@ -25,31 +25,3 @@ ORDER BY tv_shows.title ASC, tv_show_genres.genre_id ASC;
 ~
 ~
 ~
-~
-~
-"12-no_genre.sql" [New File]                                  0,0-1         All
-
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-~
-"12-no_genre.sql" [New File]                                  0,0-1         All
-
