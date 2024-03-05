@@ -1,13 +1,1 @@
-Complexity analysis:
-
-Time complexity: O(log(n))
-Space complexity: O(1)
-Explanation:
-
-The function starts with defining the boundaries left and right.
-It performs binary search until the boundaries meet.
-At each step, it checks if the middle element is greater than its adjacent element to the right.
-If it is, the peak must lie to the left, so it adjusts the right boundary accordingly.
-If it's not, the peak must lie to the right, so it adjusts the left boundary accordingly.
-Once the boundaries meet, the function returns the element at the left boundary, which is the peak.
-This algorithm has a time complexity of O(log(n)), making it efficient for finding a peak in a large list of integers.
+O(log(n))
